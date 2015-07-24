@@ -9,8 +9,6 @@ WORKDIR /opt/hchat
 RUN npm install
 ADD add/config.json /opt/hchat/config.json
 
-
-
 EXPOSE 6060
 
 CMD ["npm", "start"]
